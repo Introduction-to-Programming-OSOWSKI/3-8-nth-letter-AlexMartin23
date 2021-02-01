@@ -1,1 +1,5 @@
-#WRITE YOUR CODE IN THIS FILE
+def nthLetter(w, n):
+    if len(w) >= n:
+        return w[n-1]
+    else:
+        return False
